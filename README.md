@@ -2,6 +2,7 @@
 A simple chatbot in the terminal, a close and (not so) evil version of hal 9000, from 2001: a space odyssey. This bot can engage in conversations, retrieve weather information, and search Wikipedia.
 
 _"The 9000 series is the most reliable computer ever made."_
+---
 
 **cool stuff**
 _ask him:_ who are you
@@ -38,6 +39,7 @@ pip install wikipedia requests torch transformers
 ```bash
 python hal-9k.py
 ```
+---
 
 **for the weather feature:**
 
@@ -48,6 +50,8 @@ python hal-9k.py
 
 eg: weather in London
 
+---
+
 **how to add environment variables**
 - press `Windows` + `R`
 - type `sysdm.cpl` and press enter.
@@ -57,10 +61,14 @@ eg: weather in London
 - put [your_api_key] in variable value.
 - press OK in all the open tabs.
 
+---
+
 **for wikipedia search:**
 
 - ask the bot ```search wikipedia for [query]```
 
 eg: search wikipedia for Stanley Kubrick
+
+---
 
 >"Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you." -HAL 9000
