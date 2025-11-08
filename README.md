@@ -3,6 +3,9 @@ A simple chatbot in the terminal, a close and (not so) evil version of hal 9000,
 
 _"The 9000 series is the most reliable computer ever made."_
 
+**cool stuff**
+_ask him:_ who are you
+
 ## features
 - **Conversations**: It can have text-based conversations, with you, and has context-awareness.
 - **Weather**: It can tell you the weather of a particular city
