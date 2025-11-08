@@ -20,7 +20,7 @@ The program uses:
 ## instructions
 to run this chat bot:
 
-- make a virtual environment (optional but reccomended)
+- make a virtual environment: (optional but reccomended)
 ```bash
 python -m venv venv
 source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
@@ -44,6 +44,15 @@ python hal-9k.py
 - ask the bot ```weather in [city_name]```
 
 eg: weather in London
+
+**how to add environment variables**
+- press `Windows` + `R`
+- type `sysdm.cpl` and press enter.
+- go to "advanced", and then to "environment variables"
+- now click on "New..." on either user or system variables, depending on your choice.
+- put "WEATHER_API_KEY" in the variable name.
+- put [your_api_key] in variable value.
+- press OK in all the open tabs.
 
 **for wikipedia search:**
 
